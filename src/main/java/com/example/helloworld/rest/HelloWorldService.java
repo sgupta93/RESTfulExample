@@ -12,9 +12,9 @@ public class HelloWorldService {
 	@Path("/{param}")
 	public Response getMsg(@PathParam("param") String msg) {
  
-		String result = "Jersey say : " + msg;
+		String result1 = "Jersey Helllo world first application say : " + msg;
  
-		return Response.status(200).entity(result).build();
+		return Response.status(200).entity(result1).build();
  
 	}
  
